@@ -1,3 +1,6 @@
+# This file only contains the Gui of the main menu no features implemented here
+
+
 import tkinter as tk
 from tkinter import messagebox, ttk
 import tkinter.filedialog as fd
@@ -30,6 +33,7 @@ tk.Button(root, text="Existing Customer", command=button_placholder, bg="#2874A6
 tk.Button(root, text="Pharmacist Portal", command=button_placholder, bg="#D35400", fg="white", font=("Arial", 20)).pack(pady=5)
 tk.Button(root, text="Help", command=help, bg="#A93226", fg="white", font=("Arial", 20)).pack(pady=5)
 tk.Button(root, text="Exit", command=root.quit, bg="#2874A6", fg="white", font=("Arial", 16)).pack(pady=5)
+
 
 
 root.mainloop()
