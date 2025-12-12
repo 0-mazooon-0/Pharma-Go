@@ -15,9 +15,9 @@ removing medicines
 update the price of an existing medicine.
 
 # This project is done in an agile development
-this project was done on 6 main versions
+this project was done on 6 main versions :
 <br>
-V1.0 Parent GUI : The root (main menu) that can connect to the main functionalities of the app
+V1.0 Parent GUI : The root (main menu) that can connect to the main functionalities of the app.
 <br>
 V1.1 Cusomer signing up :  This feature is implemented in a seperate window and insure that customer signs up with correct credentials and personal info.
 <br>
