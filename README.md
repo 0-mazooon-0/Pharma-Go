@@ -6,7 +6,7 @@ These are the functionalities a customer has:
 Searching medicines,
 Reviewing the price and description of this medicine,
 Cart to add or remove medicines,
-Uploading a prescription as a PDF and
+Uploading a prescription as a PDF,
 Pay and checkout
 
 
