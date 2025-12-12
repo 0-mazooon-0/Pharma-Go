@@ -4,20 +4,15 @@ Pharma-Go is a very simple pharmacy application that facilitates searching and b
 These are the functionalities a customer has:
 
 Searching medicines
-<br>
-<br>
+
 Reviewing the price and description of this medicine
-<br>
-<br>
+
 Cart to add or remove medicines
-<br>
-<br>
+
 Uploading a prescription as a PDF
-<br>
-<br>
+
 Pay and checkout
-<br>
-<br>
+
 
 The pharmacist's also can manage stock by: 
 adding
