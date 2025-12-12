@@ -19,12 +19,20 @@ this project was done on 6 main versions :
 <br>
 V1.0 Parent GUI : The root (main menu) that can connect to the main functionalities of the app.
 <br>
+<br>
 V1.1 Cusomer signing up :  This feature is implemented in a seperate window and insure that customer signs up with correct credentials and personal info.
+<br>
 <br>
 V1.2 Customer logging in : This feature is implemented in a seperate window and synchronize customer log in with the correct credentials also passwords are hashed for security.
 <br>
+<br>
 V1.3 Pharmacist logging in : This feature is implemented in a seperate window and synchronize pharmacist log in with the correct credentials also passwords are hashed for security.
+<br>
 <br>
 V2.0 Customer portal : This is the main portal (seperate window) that the customer can access different functionalities.
 <br>
+<br>
 V2.1 Pharmacist portal : This is the main portal (seperate window) that the pharmacist can access different functionalities.
+<br>
+<br>
+
