@@ -17,6 +17,7 @@ update the price of an existing medicine.
 # This project is done in an agile development
 this project was done on 6 main versions :
 <br>
+<br>
 V1.0 Parent GUI : The root (main menu) that can connect to the main functionalities of the app.
 <br>
 <br>
