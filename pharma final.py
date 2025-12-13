@@ -311,7 +311,7 @@ def pharmacist_login():
     entry_password.pack(pady=5)
 
     tk.Button(pharmacist_window, text="Login", command=lambda:[verify_login(),pharmacist_window.withdraw()], bg="#1E8449", fg="white").pack(pady=10)
-    tk.Button(pharmacist_window,text="Back",bg="red", fg="white",command=lambda:[pharmacist_window.destroy(),root.deiconify(]).pack(pady=10)
+    tk.Button(pharmacist_window,text="Back",bg="red", fg="white",command=lambda:[pharmacist_window.destroy(),root.deiconify()]).pack(pady=10)
 
 ######## ######## ######## ########
 
@@ -526,3 +526,4 @@ tk.Button(root, text="Exit", command=root.quit, bg="#2874A6", fg="white", font=(
 
 
 root.mainloop()
+
