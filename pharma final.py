@@ -173,7 +173,7 @@ def new_account():
     entry_buildingdetails = tk.Entry(new_account_window)
     entry_buildingdetails.grid(row=6, column=1)
 
-    tk.Button(new_account_window,text="Back",bg="red", fg="white",command=lambda:[new_account.destroy(),root.deiconify()]).grid(row=7, columnspan=2, pady=10)
+    tk.Button(new_account_window,text="Back",bg="red", fg="white",command=lambda:[new_account_window.destroy(),root.deiconify()]).grid(row=7, columnspan=2, pady=10)
     tk.Button(new_account_window, text="Create Account", command=create_account, bg="#1E8449", fg="white").grid(row=8, columnspan=2, pady=10)
 
 ########  ########  ########  ########  ########
@@ -520,5 +520,6 @@ tk.Button(root, text="Exit", command=root.quit, bg="#2874A6", fg="white", font=(
 
 
 root.mainloop()
+
 
 
