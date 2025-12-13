@@ -508,14 +508,8 @@ def perform_transaction(account):
 root = tk.Tk()
 root.title("PharmaGo")
 root.configure(bg="#D5F5E3")
-# Load and set the background image
-background_image = Image.open("111.jpg")
-background_image = background_image.resize((root.winfo_screenwidth(), root.winfo_screenheight()), Image.Resampling.LANCZOS)
-background_photo = ImageTk.PhotoImage(background_image)
 root.geometry('1024x1024')
 
-background_label = tk.Label(root, image=background_photo)
-background_label.place(relwidth=1, relheight=1)
 tk.Label(root, text="Welcome to PharmaGo", font=("Arial", 50, "bold"), bg="#D5F5E3", fg="#1E8449").pack(pady=10)
 tk.Button(root, text="New Customer", command=new_account, bg="#1E8449", fg="white", font=("Arial", 20)).pack(pady=5)
 tk.Button(root, text="Existing Customer", command=log, bg="#2874A6", fg="white", font=("Arial", 20)).pack(pady=5)
@@ -526,4 +520,5 @@ tk.Button(root, text="Exit", command=root.quit, bg="#2874A6", fg="white", font=(
 
 
 root.mainloop()
+
 
